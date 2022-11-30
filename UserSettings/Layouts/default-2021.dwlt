@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1904
     height: 981
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 20
+  controlID: 95
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 21
+  controlID: 101
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 22
+  controlID: 102
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,13 +346,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jeff Hung\Documents\CMPM 121 Unity Projects\CMPM121
     Final\Rube-Goldberg-Machine
@@ -360,9 +360,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 905a0000
-    m_LastClickedID: 23184
-    m_ExpandedIDs: 00000000865a000000ca9a3bffffff7f
+    m_SelectedIDs: 925a0000
+    m_LastClickedID: 23186
+    m_ExpandedIDs: 00000000925a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -390,7 +390,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000865a0000
+    m_ExpandedIDs: 00000000925a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -518,9 +518,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: a8190000
       m_LastClickedID: 0
-      m_ExpandedIDs: 7ee9ffff7aeaffff7ef8ffff68f9ffffdef9ffff38fbffff
+      m_ExpandedIDs: 38fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -769,9 +769,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.5419207, y: -0.064101934, z: 1.6196337}
+    m_Target: {x: -25.267668, y: -2.1069865, z: -15.537084}
     speed: 2
-    m_Value: {x: -3.5419207, y: -0.064101934, z: 1.6196337}
+    m_Value: {x: -25.267668, y: -2.1069865, z: -15.537084}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -818,11 +818,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.003318156, y: -0.98850024, z: 0.1497107, w: -0.021958455}
+    m_Target: {x: 0.04192299, y: -0.83521193, z: 0.06427066, w: 0.54457086}
     speed: 2
-    m_Value: {x: -0.0033180912, y: -0.9884809, z: 0.14970778, w: -0.021958027}
+    m_Value: {x: 0.042739246, y: -0.83510435, z: 0.06552262, w: 0.5445007}
   m_Size:
-    m_Target: 6.7158065
+    m_Target: 18.191021
     speed: 2
     m_Value: 6.7158065
   m_Ortho:
