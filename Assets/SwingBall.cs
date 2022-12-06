@@ -5,13 +5,23 @@ using UnityEngine;
 public class SwingBall : MonoBehaviour
 {
     public bool Activate = false;
-    float speed = 30.0f;
-    
+    private bool done = true;
+    //float speed = 30.0f;
+    public Rigidbody rb;
+
+    private void Start()
+    {
+        ;
+    }
+
     // Update is called once per frame
     void Update()
     {        
-            if (Activate){
-                transform.Rotate(Vector3.right * speed * Time.deltaTime);
+            if (Activate && done){
+                print("activated");
+                rb.useGravity = true;
+                done = false;
+                // transform.Rotate(Vector3.right * speed * Time.deltaTime);
             }
     }
 }

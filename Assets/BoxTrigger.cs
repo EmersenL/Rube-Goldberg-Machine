@@ -5,9 +5,10 @@ using UnityEngine;
 public class BoxTrigger : MonoBehaviour
 {
     public GameObject SpinPoint; //wrecking ball object
+    public GameObject default1;
     
 
     void OnTriggerStay (Collider other){
-        SpinPoint.GetComponent<SwingBall>().Activate = true;    
+        default1.GetComponent<SwingBall>().Activate = true;    
     }
 }
