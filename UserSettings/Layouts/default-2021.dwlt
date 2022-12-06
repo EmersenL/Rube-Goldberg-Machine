@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 91
+  controlID: 16
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 42
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 43
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +346,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/ADG_Textures
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/ADG_Textures
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity\MyProjects\Rube-Goldberg-Machine
+  m_LastProjectPath: C:\Users\Jeff Hung\Documents\CMPM 121 Unity Projects\CMPM121
+    Final\Rube-Goldberg-Machine
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 505a0000
-    m_LastClickedID: 23120
-    m_ExpandedIDs: 00000000445a00004a5a0000
+    m_SelectedIDs: 5c600000
+    m_LastClickedID: 24668
+    m_ExpandedIDs: 000000004c600000dc76000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +390,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000445a0000
+    m_ExpandedIDs: 000000004c600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +417,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -516,10 +517,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 496}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 1ee4ffff32e4ffff40e4ffff50e4ffff60e4ffff7ee4ffff92e4ffffa2e4ffffbce4ffffdee4ffffe4e4fffff2e4ffff06e5ffff08e5ffff0ae5ffff1ce5ffff24e5ffff2ce5ffff3ce5ffff5ae5ffff5ee5ffff78e5ffff84e5ffff86e5fffff8e5ffff70e6ffff76e6ffff7ce6ffff82e6ffff8ee6ffffb0e6ffffb2e6ffffeeebffffd6f5ffffe2f5ffff9af7ffff9cf9fffff0faffff865a0000da5e0000de5e00008e5f00000a600000f26000004661000062620000a8620000ac6200002863000040630000d2630000d0640000766500009265000014660000da6600004267000050670000846700000c68000040680000b0680000b4680000c268000048690000446b0000626b00006a6b0000e06b0000166c00004c6c00008e6c0000ac6c0000b46c0000b86c00006c6d00005e6e0000ac6e0000be6e0000
+      scrollPos: {x: 0, y: 77}
+      m_SelectedIDs: b8ecffff
+      m_LastClickedID: -4936
+      m_ExpandedIDs: 40f7ffff14f9ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -535,7 +536,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -768,9 +769,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -150.89902, y: 50.68773, z: -6.7039948}
+    m_Target: {x: 312.03607, y: -557.22705, z: -728.6755}
     speed: 2
-    m_Value: {x: -150.89902, y: 50.68773, z: -6.7039948}
+    m_Value: {x: 312.03607, y: -557.22705, z: -728.6755}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -817,13 +818,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.054640844, y: -0.4704278, z: -0.030727796, w: 0.8806116}
+    m_Target: {x: 0.0726548, y: 0.92619354, z: -0.28531533, w: 0.23614486}
     speed: 2
-    m_Value: {x: -0.054621488, y: -0.47026116, z: -0.03071691, w: 0.8802996}
+    m_Value: {x: 0.07307238, y: 0.92570764, z: -0.28516576, w: 0.23750035}
   m_Size:
-    m_Target: 46.57895
+    m_Target: 518.76605
     speed: 2
-    m_Value: 46.57895
+    m_Value: 496.42685
   m_Ortho:
     m_Target: 0
     speed: 2
