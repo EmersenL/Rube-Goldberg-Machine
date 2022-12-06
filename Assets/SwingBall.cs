@@ -18,7 +18,7 @@ public class SwingBall : MonoBehaviour
     void Update()
     {        
             if (Activate && done){
-                print("activated");
+                // print("activated");
                 rb.useGravity = true;
                 done = false;
                 // transform.Rotate(Vector3.right * speed * Time.deltaTime);
