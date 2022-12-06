@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 3121681}
   - component: {fileID: 3121680}
   - component: {fileID: 3121679}
-  - component: {fileID: 3121678}
   - component: {fileID: 3121677}
   m_Layer: 0
   m_Name: Domino (53)
@@ -175,20 +174,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &3121678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3121675}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 3121677}
 --- !u!65 &3121679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -361,7 +346,6 @@ GameObject:
   - component: {fileID: 11729659}
   - component: {fileID: 11729658}
   - component: {fileID: 11729657}
-  - component: {fileID: 11729656}
   - component: {fileID: 11729655}
   m_Layer: 0
   m_Name: Domino (2)
@@ -401,20 +385,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &11729656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 11729653}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 11729655}
 --- !u!65 &11729657
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -539,7 +509,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 18292525}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f40fd6fbc505954bb1f8a09462c7bad, type: 3}
+  m_Script: {fileID: 11500000, guid: 814dd53422704454a95b624849e5f5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Sparks: {fileID: 496178034}
@@ -650,7 +620,6 @@ GameObject:
   - component: {fileID: 40925928}
   - component: {fileID: 40925927}
   - component: {fileID: 40925926}
-  - component: {fileID: 40925925}
   - component: {fileID: 40925924}
   m_Layer: 0
   m_Name: Domino (54)
@@ -690,20 +659,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &40925925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40925922}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 40925924}
 --- !u!65 &40925926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -779,7 +734,6 @@ GameObject:
   - component: {fileID: 48733360}
   - component: {fileID: 48733359}
   - component: {fileID: 48733358}
-  - component: {fileID: 48733357}
   - component: {fileID: 48733356}
   m_Layer: 0
   m_Name: Domino (47)
@@ -819,20 +773,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &48733357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 48733354}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 48733356}
 --- !u!65 &48733358
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -908,7 +848,6 @@ GameObject:
   - component: {fileID: 54728191}
   - component: {fileID: 54728190}
   - component: {fileID: 54728189}
-  - component: {fileID: 54728188}
   - component: {fileID: 54728187}
   m_Layer: 0
   m_Name: Domino (6)
@@ -948,20 +887,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &54728188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 54728185}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 54728187}
 --- !u!65 &54728189
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1068,7 +993,6 @@ GameObject:
   - component: {fileID: 70443461}
   - component: {fileID: 70443460}
   - component: {fileID: 70443459}
-  - component: {fileID: 70443458}
   - component: {fileID: 70443457}
   m_Layer: 0
   m_Name: Domino (79)
@@ -1108,20 +1032,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &70443458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 70443455}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 70443457}
 --- !u!65 &70443459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1391,7 +1301,6 @@ GameObject:
   - component: {fileID: 75267029}
   - component: {fileID: 75267028}
   - component: {fileID: 75267027}
-  - component: {fileID: 75267026}
   - component: {fileID: 75267025}
   m_Layer: 0
   m_Name: Domino (141)
@@ -1431,20 +1340,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &75267026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 75267023}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 75267025}
 --- !u!65 &75267027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1617,7 +1512,6 @@ GameObject:
   - component: {fileID: 77998695}
   - component: {fileID: 77998694}
   - component: {fileID: 77998693}
-  - component: {fileID: 77998692}
   - component: {fileID: 77998691}
   m_Layer: 0
   m_Name: Domino (106)
@@ -1657,20 +1551,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &77998692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 77998689}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 77998691}
 --- !u!65 &77998693
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2032,7 +1912,6 @@ GameObject:
   - component: {fileID: 104143276}
   - component: {fileID: 104143275}
   - component: {fileID: 104143274}
-  - component: {fileID: 104143273}
   - component: {fileID: 104143272}
   m_Layer: 0
   m_Name: Domino (101)
@@ -2072,20 +1951,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &104143273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 104143270}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 104143272}
 --- !u!65 &104143274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2258,7 +2123,6 @@ GameObject:
   - component: {fileID: 109263629}
   - component: {fileID: 109263628}
   - component: {fileID: 109263627}
-  - component: {fileID: 109263626}
   - component: {fileID: 109263625}
   m_Layer: 0
   m_Name: Domino (134)
@@ -2298,20 +2162,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &109263626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 109263623}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 109263625}
 --- !u!65 &109263627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2387,7 +2237,6 @@ GameObject:
   - component: {fileID: 111552324}
   - component: {fileID: 111552323}
   - component: {fileID: 111552322}
-  - component: {fileID: 111552321}
   - component: {fileID: 111552320}
   m_Layer: 0
   m_Name: Domino (123)
@@ -2427,20 +2276,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &111552321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 111552318}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 111552320}
 --- !u!65 &111552322
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2648,7 +2483,6 @@ GameObject:
   - component: {fileID: 139670113}
   - component: {fileID: 139670112}
   - component: {fileID: 139670111}
-  - component: {fileID: 139670110}
   - component: {fileID: 139670109}
   m_Layer: 0
   m_Name: Domino (5)
@@ -2688,20 +2522,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &139670110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139670107}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 139670109}
 --- !u!65 &139670111
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2777,7 +2597,6 @@ GameObject:
   - component: {fileID: 153104016}
   - component: {fileID: 153104015}
   - component: {fileID: 153104014}
-  - component: {fileID: 153104013}
   - component: {fileID: 153104012}
   m_Layer: 0
   m_Name: Domino (69)
@@ -2817,20 +2636,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &153104013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153104010}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 153104012}
 --- !u!65 &153104014
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2924,7 +2729,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 156992796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f40fd6fbc505954bb1f8a09462c7bad, type: 3}
+  m_Script: {fileID: 11500000, guid: 814dd53422704454a95b624849e5f5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Sparks: {fileID: 206964702}
@@ -3132,7 +2937,6 @@ GameObject:
   - component: {fileID: 162827647}
   - component: {fileID: 162827646}
   - component: {fileID: 162827645}
-  - component: {fileID: 162827644}
   - component: {fileID: 162827643}
   m_Layer: 0
   m_Name: Domino (122)
@@ -3172,20 +2976,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &162827644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 162827641}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 162827643}
 --- !u!65 &162827645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3662,7 +3452,6 @@ GameObject:
   - component: {fileID: 202856599}
   - component: {fileID: 202856598}
   - component: {fileID: 202856597}
-  - component: {fileID: 202856596}
   - component: {fileID: 202856595}
   m_Layer: 0
   m_Name: Domino (59)
@@ -3702,20 +3491,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &202856596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202856593}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 202856595}
 --- !u!65 &202856597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3791,7 +3566,6 @@ GameObject:
   - component: {fileID: 205264018}
   - component: {fileID: 205264017}
   - component: {fileID: 205264016}
-  - component: {fileID: 205264015}
   - component: {fileID: 205264014}
   m_Layer: 0
   m_Name: Domino (8)
@@ -3831,20 +3605,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &205264015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205264012}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 205264014}
 --- !u!65 &205264016
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3920,7 +3680,6 @@ GameObject:
   - component: {fileID: 205863313}
   - component: {fileID: 205863312}
   - component: {fileID: 205863311}
-  - component: {fileID: 205863310}
   - component: {fileID: 205863309}
   m_Layer: 0
   m_Name: Domino (136)
@@ -3952,28 +3711,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 205863307}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1.99
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &205863310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205863307}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 205863309}
 --- !u!65 &205863311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9189,7 +8934,6 @@ GameObject:
   - component: {fileID: 284619928}
   - component: {fileID: 284619927}
   - component: {fileID: 284619926}
-  - component: {fileID: 284619925}
   - component: {fileID: 284619924}
   m_Layer: 0
   m_Name: Domino (105)
@@ -9229,20 +8973,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &284619925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 284619922}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 284619924}
 --- !u!65 &284619926
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9318,7 +9048,6 @@ GameObject:
   - component: {fileID: 300073304}
   - component: {fileID: 300073303}
   - component: {fileID: 300073302}
-  - component: {fileID: 300073301}
   - component: {fileID: 300073300}
   m_Layer: 0
   m_Name: Domino (1)
@@ -9358,20 +9087,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &300073301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300073298}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 300073300}
 --- !u!65 &300073302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9447,7 +9162,6 @@ GameObject:
   - component: {fileID: 315806597}
   - component: {fileID: 315806596}
   - component: {fileID: 315806595}
-  - component: {fileID: 315806594}
   - component: {fileID: 315806593}
   m_Layer: 0
   m_Name: Domino (128)
@@ -9487,20 +9201,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &315806594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 315806591}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 315806593}
 --- !u!65 &315806595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9576,7 +9276,6 @@ GameObject:
   - component: {fileID: 323569166}
   - component: {fileID: 323569165}
   - component: {fileID: 323569164}
-  - component: {fileID: 323569163}
   - component: {fileID: 323569162}
   m_Layer: 0
   m_Name: Domino (83)
@@ -9616,20 +9315,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &323569163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 323569160}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 323569162}
 --- !u!65 &323569164
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10066,7 +9751,6 @@ GameObject:
   - component: {fileID: 343998129}
   - component: {fileID: 343998128}
   - component: {fileID: 343998127}
-  - component: {fileID: 343998126}
   - component: {fileID: 343998125}
   m_Layer: 0
   m_Name: Domino (103)
@@ -10106,20 +9790,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &343998126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 343998123}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 343998125}
 --- !u!65 &343998127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10292,7 +9962,6 @@ GameObject:
   - component: {fileID: 350249357}
   - component: {fileID: 350249356}
   - component: {fileID: 350249355}
-  - component: {fileID: 350249354}
   - component: {fileID: 350249353}
   m_Layer: 0
   m_Name: Domino (90)
@@ -10332,20 +10001,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &350249354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 350249351}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 350249353}
 --- !u!65 &350249355
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10549,7 +10204,6 @@ GameObject:
   - component: {fileID: 384096199}
   - component: {fileID: 384096198}
   - component: {fileID: 384096197}
-  - component: {fileID: 384096196}
   - component: {fileID: 384096195}
   m_Layer: 0
   m_Name: Domino (10)
@@ -10589,20 +10243,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &384096196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384096193}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 384096195}
 --- !u!65 &384096197
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10726,7 +10366,6 @@ GameObject:
   - component: {fileID: 400388681}
   - component: {fileID: 400388680}
   - component: {fileID: 400388679}
-  - component: {fileID: 400388678}
   - component: {fileID: 400388677}
   m_Layer: 0
   m_Name: Domino (31)
@@ -10766,20 +10405,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &400388678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400388675}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 400388677}
 --- !u!65 &400388679
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10855,7 +10480,6 @@ GameObject:
   - component: {fileID: 400802939}
   - component: {fileID: 400802938}
   - component: {fileID: 400802937}
-  - component: {fileID: 400802936}
   - component: {fileID: 400802935}
   m_Layer: 0
   m_Name: Domino (80)
@@ -10895,20 +10519,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &400802936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400802933}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 400802935}
 --- !u!65 &400802937
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11081,7 +10691,6 @@ GameObject:
   - component: {fileID: 424214767}
   - component: {fileID: 424214766}
   - component: {fileID: 424214765}
-  - component: {fileID: 424214764}
   - component: {fileID: 424214763}
   m_Layer: 0
   m_Name: Domino (36)
@@ -11121,20 +10730,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &424214764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 424214761}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 424214763}
 --- !u!65 &424214765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16057,7 +15652,6 @@ GameObject:
   - component: {fileID: 446199713}
   - component: {fileID: 446199712}
   - component: {fileID: 446199711}
-  - component: {fileID: 446199710}
   - component: {fileID: 446199709}
   m_Layer: 0
   m_Name: Domino (138)
@@ -16089,28 +15683,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446199707}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1.99
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &446199710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 446199707}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 446199709}
 --- !u!65 &446199711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16217,7 +15797,6 @@ GameObject:
   - component: {fileID: 465946799}
   - component: {fileID: 465946798}
   - component: {fileID: 465946797}
-  - component: {fileID: 465946796}
   - component: {fileID: 465946795}
   m_Layer: 0
   m_Name: Domino (3)
@@ -16257,20 +15836,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &465946796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 465946793}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 465946795}
 --- !u!65 &465946797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16346,7 +15911,6 @@ GameObject:
   - component: {fileID: 476213831}
   - component: {fileID: 476213830}
   - component: {fileID: 476213829}
-  - component: {fileID: 476213828}
   - component: {fileID: 476213827}
   m_Layer: 0
   m_Name: Domino (25)
@@ -16386,20 +15950,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &476213828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476213825}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 476213827}
 --- !u!65 &476213829
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21579,7 +21129,6 @@ GameObject:
   - component: {fileID: 497905329}
   - component: {fileID: 497905328}
   - component: {fileID: 497905327}
-  - component: {fileID: 497905326}
   - component: {fileID: 497905325}
   m_Layer: 0
   m_Name: Domino (66)
@@ -21619,20 +21168,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &497905326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 497905323}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 497905325}
 --- !u!65 &497905327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21996,7 +21531,6 @@ GameObject:
   - component: {fileID: 510098728}
   - component: {fileID: 510098727}
   - component: {fileID: 510098726}
-  - component: {fileID: 510098725}
   - component: {fileID: 510098724}
   m_Layer: 0
   m_Name: Domino (51)
@@ -22036,20 +21570,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &510098725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 510098722}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 510098724}
 --- !u!65 &510098726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22125,7 +21645,6 @@ GameObject:
   - component: {fileID: 515947260}
   - component: {fileID: 515947259}
   - component: {fileID: 515947258}
-  - component: {fileID: 515947257}
   - component: {fileID: 515947256}
   m_Layer: 0
   m_Name: Domino (27)
@@ -22165,20 +21684,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &515947257
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515947254}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 515947256}
 --- !u!65 &515947258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22351,7 +21856,6 @@ GameObject:
   - component: {fileID: 524399468}
   - component: {fileID: 524399467}
   - component: {fileID: 524399466}
-  - component: {fileID: 524399465}
   - component: {fileID: 524399464}
   m_Layer: 0
   m_Name: Domino (50)
@@ -22391,20 +21895,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &524399465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 524399462}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 524399464}
 --- !u!65 &524399466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27293,7 +26783,6 @@ GameObject:
   - component: {fileID: 527955830}
   - component: {fileID: 527955829}
   - component: {fileID: 527955828}
-  - component: {fileID: 527955827}
   - component: {fileID: 527955826}
   m_Layer: 0
   m_Name: Domino (55)
@@ -27333,20 +26822,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &527955827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 527955824}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 527955826}
 --- !u!65 &527955828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27422,7 +26897,6 @@ GameObject:
   - component: {fileID: 533201591}
   - component: {fileID: 533201590}
   - component: {fileID: 533201589}
-  - component: {fileID: 533201588}
   - component: {fileID: 533201587}
   m_Layer: 0
   m_Name: Domino (75)
@@ -27462,20 +26936,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &533201588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533201585}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 533201587}
 --- !u!65 &533201589
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27873,7 +27333,6 @@ GameObject:
   - component: {fileID: 551854581}
   - component: {fileID: 551854580}
   - component: {fileID: 551854579}
-  - component: {fileID: 551854578}
   - component: {fileID: 551854577}
   m_Layer: 0
   m_Name: Domino (112)
@@ -27913,20 +27372,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &551854578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551854575}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 551854577}
 --- !u!65 &551854579
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28037,7 +27482,6 @@ GameObject:
   - component: {fileID: 557857662}
   - component: {fileID: 557857661}
   - component: {fileID: 557857660}
-  - component: {fileID: 557857659}
   - component: {fileID: 557857658}
   m_Layer: 0
   m_Name: Domino (102)
@@ -28077,20 +27521,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &557857659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557857656}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 557857658}
 --- !u!65 &557857660
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32978,7 +32408,6 @@ GameObject:
   - component: {fileID: 564008283}
   - component: {fileID: 564008282}
   - component: {fileID: 564008281}
-  - component: {fileID: 564008280}
   - component: {fileID: 564008279}
   m_Layer: 0
   m_Name: Domino (86)
@@ -33018,20 +32447,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &564008280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 564008277}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 564008279}
 --- !u!65 &564008281
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33204,7 +32619,6 @@ GameObject:
   - component: {fileID: 577027696}
   - component: {fileID: 577027695}
   - component: {fileID: 577027694}
-  - component: {fileID: 577027693}
   - component: {fileID: 577027692}
   m_Layer: 0
   m_Name: Domino (111)
@@ -33244,20 +32658,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &577027693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577027690}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 577027692}
 --- !u!65 &577027694
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33321,103 +32721,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577027690}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &577330004
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 577330005}
-  - component: {fileID: 577330008}
-  - component: {fileID: 577330007}
-  - component: {fileID: 577330006}
-  m_Layer: 0
-  m_Name: SlideWallL (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &577330005
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577330004}
-  m_LocalRotation: {x: 0.0028260052, y: 0.012813501, z: 0.3434221, w: 0.9390895}
-  m_LocalPosition: {x: -55.67, y: 1.19, z: -54.44}
-  m_LocalScale: {x: 1.0405585, y: 21.13, z: 10.164758}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1038714740}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: -0.2, y: 1.49, z: 40.172}
---- !u!65 &577330006
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577330004}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &577330007
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577330004}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 2824f396dd700f04ba272680a0840b36, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &577330008
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577330004}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &580473780
 GameObject:
   m_ObjectHideFlags: 0
@@ -33430,7 +32733,6 @@ GameObject:
   - component: {fileID: 580473786}
   - component: {fileID: 580473785}
   - component: {fileID: 580473784}
-  - component: {fileID: 580473783}
   - component: {fileID: 580473782}
   m_Layer: 0
   m_Name: Domino (41)
@@ -33470,20 +32772,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &580473783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580473780}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 580473782}
 --- !u!65 &580473784
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33559,7 +32847,6 @@ GameObject:
   - component: {fileID: 585349414}
   - component: {fileID: 585349413}
   - component: {fileID: 585349412}
-  - component: {fileID: 585349411}
   - component: {fileID: 585349410}
   m_Layer: 0
   m_Name: Domino (11)
@@ -33599,20 +32886,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &585349411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 585349408}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 585349410}
 --- !u!65 &585349412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33803,7 +33076,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 590898917}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f40fd6fbc505954bb1f8a09462c7bad, type: 3}
+  m_Script: {fileID: 11500000, guid: 814dd53422704454a95b624849e5f5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Sparks: {fileID: 527234481}
@@ -34514,7 +33787,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 647005928}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f40fd6fbc505954bb1f8a09462c7bad, type: 3}
+  m_Script: {fileID: 11500000, guid: 814dd53422704454a95b624849e5f5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Sparks: {fileID: 1981705824}
@@ -39475,7 +38748,6 @@ GameObject:
   - component: {fileID: 653563176}
   - component: {fileID: 653563175}
   - component: {fileID: 653563174}
-  - component: {fileID: 653563173}
   - component: {fileID: 653563172}
   m_Layer: 0
   m_Name: Domino (57)
@@ -39515,20 +38787,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &653563173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653563170}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 653563172}
 --- !u!65 &653563174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39604,7 +38862,6 @@ GameObject:
   - component: {fileID: 657901215}
   - component: {fileID: 657901214}
   - component: {fileID: 657901213}
-  - component: {fileID: 657901212}
   - component: {fileID: 657901211}
   m_Layer: 0
   m_Name: Domino (117)
@@ -39644,20 +38901,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &657901212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 657901209}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 657901211}
 --- !u!65 &657901213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39733,7 +38976,6 @@ GameObject:
   - component: {fileID: 659320767}
   - component: {fileID: 659320766}
   - component: {fileID: 659320765}
-  - component: {fileID: 659320764}
   - component: {fileID: 659320763}
   m_Layer: 0
   m_Name: Domino (46)
@@ -39773,20 +39015,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &659320764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 659320761}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 659320763}
 --- !u!65 &659320765
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39862,7 +39090,6 @@ GameObject:
   - component: {fileID: 664729643}
   - component: {fileID: 664729642}
   - component: {fileID: 664729641}
-  - component: {fileID: 664729640}
   - component: {fileID: 664729639}
   m_Layer: 0
   m_Name: Domino (127)
@@ -39902,20 +39129,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &664729640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 664729637}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 664729639}
 --- !u!65 &664729641
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39991,7 +39204,6 @@ GameObject:
   - component: {fileID: 690596200}
   - component: {fileID: 690596199}
   - component: {fileID: 690596198}
-  - component: {fileID: 690596197}
   - component: {fileID: 690596196}
   m_Layer: 0
   m_Name: Domino (107)
@@ -40031,20 +39243,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &690596197
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 690596194}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 690596196}
 --- !u!65 &690596198
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40120,7 +39318,6 @@ GameObject:
   - component: {fileID: 693498766}
   - component: {fileID: 693498765}
   - component: {fileID: 693498764}
-  - component: {fileID: 693498763}
   - component: {fileID: 693498762}
   m_Layer: 0
   m_Name: Domino (72)
@@ -40160,20 +39357,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &693498763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 693498760}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 693498762}
 --- !u!65 &693498764
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40249,7 +39432,6 @@ GameObject:
   - component: {fileID: 697491721}
   - component: {fileID: 697491720}
   - component: {fileID: 697491719}
-  - component: {fileID: 697491718}
   - component: {fileID: 697491717}
   m_Layer: 0
   m_Name: Domino (56)
@@ -40289,20 +39471,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &697491718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 697491715}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 697491717}
 --- !u!65 &697491719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40409,7 +39577,6 @@ GameObject:
   - component: {fileID: 718661950}
   - component: {fileID: 718661949}
   - component: {fileID: 718661948}
-  - component: {fileID: 718661947}
   - component: {fileID: 718661946}
   m_Layer: 0
   m_Name: Domino (85)
@@ -40449,20 +39616,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &718661947
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718661944}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 718661946}
 --- !u!65 &718661948
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40569,7 +39722,6 @@ GameObject:
   - component: {fileID: 721159276}
   - component: {fileID: 721159275}
   - component: {fileID: 721159274}
-  - component: {fileID: 721159273}
   - component: {fileID: 721159272}
   m_Layer: 0
   m_Name: Domino (38)
@@ -40609,20 +39761,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &721159273
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721159270}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 721159272}
 --- !u!65 &721159274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40698,7 +39836,6 @@ GameObject:
   - component: {fileID: 727184003}
   - component: {fileID: 727184002}
   - component: {fileID: 727184001}
-  - component: {fileID: 727184000}
   - component: {fileID: 727183999}
   m_Layer: 0
   m_Name: Domino (109)
@@ -40738,20 +39875,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &727184000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727183997}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 727183999}
 --- !u!65 &727184001
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41287,7 +40410,6 @@ GameObject:
   - component: {fileID: 766295156}
   - component: {fileID: 766295155}
   - component: {fileID: 766295154}
-  - component: {fileID: 766295153}
   - component: {fileID: 766295152}
   m_Layer: 0
   m_Name: Domino (26)
@@ -41327,20 +40449,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &766295153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 766295150}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 766295152}
 --- !u!65 &766295154
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41416,7 +40524,6 @@ GameObject:
   - component: {fileID: 770615582}
   - component: {fileID: 770615581}
   - component: {fileID: 770615580}
-  - component: {fileID: 770615579}
   - component: {fileID: 770615578}
   m_Layer: 0
   m_Name: Domino (94)
@@ -41456,20 +40563,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &770615579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770615576}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 770615578}
 --- !u!65 &770615580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41545,7 +40638,6 @@ GameObject:
   - component: {fileID: 775537959}
   - component: {fileID: 775537958}
   - component: {fileID: 775537957}
-  - component: {fileID: 775537956}
   - component: {fileID: 775537955}
   m_Layer: 0
   m_Name: Domino (108)
@@ -41585,20 +40677,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &775537956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775537953}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 775537955}
 --- !u!65 &775537957
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41674,7 +40752,6 @@ GameObject:
   - component: {fileID: 777355065}
   - component: {fileID: 777355064}
   - component: {fileID: 777355063}
-  - component: {fileID: 777355062}
   - component: {fileID: 777355061}
   m_Layer: 0
   m_Name: Domino (32)
@@ -41714,20 +40791,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &777355062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777355059}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 777355061}
 --- !u!65 &777355063
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41803,7 +40866,6 @@ GameObject:
   - component: {fileID: 777848901}
   - component: {fileID: 777848900}
   - component: {fileID: 777848899}
-  - component: {fileID: 777848898}
   - component: {fileID: 777848897}
   m_Layer: 0
   m_Name: Domino (137)
@@ -41835,28 +40897,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777848895}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1.99
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &777848898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777848895}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 777848897}
 --- !u!65 &777848899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41932,7 +40980,6 @@ GameObject:
   - component: {fileID: 790890298}
   - component: {fileID: 790890297}
   - component: {fileID: 790890296}
-  - component: {fileID: 790890295}
   - component: {fileID: 790890294}
   m_Layer: 0
   m_Name: Domino (126)
@@ -41972,20 +41019,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &790890295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 790890292}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 790890294}
 --- !u!65 &790890296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46874,7 +45907,6 @@ GameObject:
   - component: {fileID: 808969370}
   - component: {fileID: 808969369}
   - component: {fileID: 808969368}
-  - component: {fileID: 808969367}
   - component: {fileID: 808969366}
   m_Layer: 0
   m_Name: Domino (18)
@@ -46914,20 +45946,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &808969367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 808969364}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 808969366}
 --- !u!65 &808969368
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47197,7 +46215,6 @@ GameObject:
   - component: {fileID: 838371566}
   - component: {fileID: 838371565}
   - component: {fileID: 838371564}
-  - component: {fileID: 838371563}
   - component: {fileID: 838371562}
   m_Layer: 0
   m_Name: Domino (22)
@@ -47237,20 +46254,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &838371563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 838371560}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 838371562}
 --- !u!65 &838371564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47357,7 +46360,6 @@ GameObject:
   - component: {fileID: 852592618}
   - component: {fileID: 852592617}
   - component: {fileID: 852592616}
-  - component: {fileID: 852592615}
   - component: {fileID: 852592614}
   m_Layer: 0
   m_Name: Domino (65)
@@ -47397,20 +46399,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &852592615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 852592612}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 852592614}
 --- !u!65 &852592616
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47583,7 +46571,6 @@ GameObject:
   - component: {fileID: 861784802}
   - component: {fileID: 861784801}
   - component: {fileID: 861784800}
-  - component: {fileID: 861784799}
   - component: {fileID: 861784798}
   m_Layer: 0
   m_Name: Domino (78)
@@ -47623,20 +46610,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &861784799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861784796}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 861784798}
 --- !u!65 &861784800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47712,7 +46685,6 @@ GameObject:
   - component: {fileID: 866752152}
   - component: {fileID: 866752151}
   - component: {fileID: 866752150}
-  - component: {fileID: 866752149}
   - component: {fileID: 866752148}
   m_Layer: 0
   m_Name: Domino (7)
@@ -47752,20 +46724,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &866752149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866752146}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 866752148}
 --- !u!65 &866752150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48050,7 +47008,6 @@ GameObject:
   - component: {fileID: 880988575}
   - component: {fileID: 880988574}
   - component: {fileID: 880988573}
-  - component: {fileID: 880988572}
   - component: {fileID: 880988571}
   m_Layer: 0
   m_Name: Domino (84)
@@ -48090,20 +47047,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &880988572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 880988569}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 880988571}
 --- !u!65 &880988573
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48276,7 +47219,6 @@ GameObject:
   - component: {fileID: 882834315}
   - component: {fileID: 882834314}
   - component: {fileID: 882834313}
-  - component: {fileID: 882834312}
   - component: {fileID: 882834311}
   m_Layer: 0
   m_Name: Domino (71)
@@ -48316,20 +47258,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &882834312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882834309}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 882834311}
 --- !u!65 &882834313
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48616,7 +47544,6 @@ GameObject:
   - component: {fileID: 889463483}
   - component: {fileID: 889463482}
   - component: {fileID: 889463481}
-  - component: {fileID: 889463480}
   - component: {fileID: 889463479}
   m_Layer: 0
   m_Name: Domino (45)
@@ -48656,20 +47583,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &889463480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 889463477}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 889463479}
 --- !u!65 &889463481
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48745,7 +47658,6 @@ GameObject:
   - component: {fileID: 901792540}
   - component: {fileID: 901792539}
   - component: {fileID: 901792538}
-  - component: {fileID: 901792537}
   - component: {fileID: 901792536}
   m_Layer: 0
   m_Name: Domino (89)
@@ -48785,20 +47697,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &901792537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901792534}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 901792536}
 --- !u!65 &901792538
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48874,7 +47772,6 @@ GameObject:
   - component: {fileID: 902807823}
   - component: {fileID: 902807822}
   - component: {fileID: 902807821}
-  - component: {fileID: 902807820}
   - component: {fileID: 902807819}
   m_Layer: 0
   m_Name: Domino (77)
@@ -48914,20 +47811,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &902807820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902807817}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 902807819}
 --- !u!65 &902807821
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49097,7 +47980,6 @@ GameObject:
   - component: {fileID: 907126288}
   - component: {fileID: 907126287}
   - component: {fileID: 907126286}
-  - component: {fileID: 907126285}
   - component: {fileID: 907126284}
   m_Layer: 0
   m_Name: Domino (17)
@@ -49137,20 +48019,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &907126285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 907126282}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 907126284}
 --- !u!65 &907126286
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49226,7 +48094,6 @@ GameObject:
   - component: {fileID: 916250206}
   - component: {fileID: 916250205}
   - component: {fileID: 916250204}
-  - component: {fileID: 916250203}
   - component: {fileID: 916250202}
   m_Layer: 0
   m_Name: Domino (42)
@@ -49266,20 +48133,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &916250203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 916250200}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 916250202}
 --- !u!65 &916250204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49390,7 +48243,6 @@ GameObject:
   - component: {fileID: 918841772}
   - component: {fileID: 918841771}
   - component: {fileID: 918841770}
-  - component: {fileID: 918841769}
   - component: {fileID: 918841768}
   m_Layer: 0
   m_Name: Domino (76)
@@ -49430,20 +48282,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &918841769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918841766}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 918841768}
 --- !u!65 &918841770
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49616,7 +48454,6 @@ GameObject:
   - component: {fileID: 930117363}
   - component: {fileID: 930117362}
   - component: {fileID: 930117361}
-  - component: {fileID: 930117360}
   - component: {fileID: 930117359}
   m_Layer: 0
   m_Name: Domino (68)
@@ -49656,20 +48493,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &930117360
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 930117357}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 930117359}
 --- !u!65 &930117361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54828,7 +53651,6 @@ GameObject:
   - component: {fileID: 984005116}
   - component: {fileID: 984005115}
   - component: {fileID: 984005114}
-  - component: {fileID: 984005113}
   - component: {fileID: 984005112}
   m_Layer: 0
   m_Name: Domino (60)
@@ -54868,20 +53690,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &984005113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984005110}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 984005112}
 --- !u!65 &984005114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54957,7 +53765,6 @@ GameObject:
   - component: {fileID: 984400972}
   - component: {fileID: 984400971}
   - component: {fileID: 984400970}
-  - component: {fileID: 984400969}
   - component: {fileID: 984400968}
   m_Layer: 0
   m_Name: Domino (34)
@@ -54997,20 +53804,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &984400969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984400966}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 984400968}
 --- !u!65 &984400970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55196,43 +53989,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -89.09
+      value: -89.46
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.88
+      value: 22.19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -62.95
+      value: -63.47
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.2823508
+      value: 0.25603694
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.40357807
+      value: 0.41841325
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.74063575
+      value: 0.7596451
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.45701367
+      value: 0.4269834
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -26.683
+      value: -25.751
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 478.24402
+      value: 484.046
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -286.685
+      value: -288.462
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 03cc88273431b7a438fe9ff5901a4f0c, type: 3}
       propertyPath: m_Name
@@ -55262,7 +54055,6 @@ GameObject:
   - component: {fileID: 1006777352}
   - component: {fileID: 1006777351}
   - component: {fileID: 1006777350}
-  - component: {fileID: 1006777349}
   - component: {fileID: 1006777348}
   m_Layer: 0
   m_Name: Domino (110)
@@ -55302,20 +54094,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1006777349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1006777346}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1006777348}
 --- !u!65 &1006777350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55509,8 +54287,6 @@ Transform:
   - {fileID: 1530869805}
   - {fileID: 950245692}
   - {fileID: 2021902502}
-  - {fileID: 1406764091}
-  - {fileID: 577330005}
   - {fileID: 1619906669}
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -55527,7 +54303,6 @@ GameObject:
   - component: {fileID: 1049040114}
   - component: {fileID: 1049040113}
   - component: {fileID: 1049040112}
-  - component: {fileID: 1049040111}
   - component: {fileID: 1049040110}
   m_Layer: 0
   m_Name: Domino (21)
@@ -55567,20 +54342,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1049040111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049040108}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1049040110}
 --- !u!65 &1049040112
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55656,7 +54417,6 @@ GameObject:
   - component: {fileID: 1049346554}
   - component: {fileID: 1049346553}
   - component: {fileID: 1049346552}
-  - component: {fileID: 1049346551}
   - component: {fileID: 1049346550}
   m_Layer: 0
   m_Name: Domino (52)
@@ -55696,20 +54456,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1049346551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049346548}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1049346550}
 --- !u!65 &1049346552
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55958,7 +54704,6 @@ GameObject:
   - component: {fileID: 1088018206}
   - component: {fileID: 1088018205}
   - component: {fileID: 1088018204}
-  - component: {fileID: 1088018203}
   - component: {fileID: 1088018202}
   m_Layer: 0
   m_Name: Domino (133)
@@ -55998,20 +54743,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1088018203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088018200}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1088018202}
 --- !u!65 &1088018204
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -56087,7 +54818,6 @@ GameObject:
   - component: {fileID: 1093047252}
   - component: {fileID: 1093047251}
   - component: {fileID: 1093047250}
-  - component: {fileID: 1093047249}
   - component: {fileID: 1093047248}
   m_Layer: 0
   m_Name: Domino (61)
@@ -56127,20 +54857,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1093047249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093047246}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1093047248}
 --- !u!65 &1093047250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61199,7 +59915,6 @@ GameObject:
   - component: {fileID: 1116792452}
   - component: {fileID: 1116792451}
   - component: {fileID: 1116792450}
-  - component: {fileID: 1116792449}
   - component: {fileID: 1116792448}
   m_Layer: 0
   m_Name: Domino (37)
@@ -61239,20 +59954,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1116792449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1116792446}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1116792448}
 --- !u!65 &1116792450
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61596,7 +60297,6 @@ GameObject:
   - component: {fileID: 1117991999}
   - component: {fileID: 1117991998}
   - component: {fileID: 1117991997}
-  - component: {fileID: 1117991996}
   - component: {fileID: 1117991995}
   m_Layer: 0
   m_Name: Domino (40)
@@ -61636,20 +60336,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1117991996
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1117991993}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1117991995}
 --- !u!65 &1117991997
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61725,7 +60411,6 @@ GameObject:
   - component: {fileID: 1119598118}
   - component: {fileID: 1119598117}
   - component: {fileID: 1119598116}
-  - component: {fileID: 1119598115}
   - component: {fileID: 1119598114}
   m_Layer: 0
   m_Name: Domino (92)
@@ -61765,20 +60450,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1119598115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119598112}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1119598114}
 --- !u!65 &1119598116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62083,7 +60754,6 @@ GameObject:
   - component: {fileID: 1143010252}
   - component: {fileID: 1143010251}
   - component: {fileID: 1143010250}
-  - component: {fileID: 1143010249}
   - component: {fileID: 1143010248}
   m_Layer: 0
   m_Name: Domino (20)
@@ -62123,20 +60793,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1143010249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1143010246}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1143010248}
 --- !u!65 &1143010250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62243,7 +60899,6 @@ GameObject:
   - component: {fileID: 1174244113}
   - component: {fileID: 1174244112}
   - component: {fileID: 1174244111}
-  - component: {fileID: 1174244110}
   - component: {fileID: 1174244109}
   m_Layer: 0
   m_Name: Domino (19)
@@ -62283,20 +60938,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1174244110
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174244107}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1174244109}
 --- !u!65 &1174244111
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62469,7 +61110,6 @@ GameObject:
   - component: {fileID: 1183208787}
   - component: {fileID: 1183208786}
   - component: {fileID: 1183208785}
-  - component: {fileID: 1183208784}
   - component: {fileID: 1183208783}
   m_Layer: 0
   m_Name: Domino (81)
@@ -62509,20 +61149,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1183208784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1183208781}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1183208783}
 --- !u!65 &1183208785
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62598,7 +61224,6 @@ GameObject:
   - component: {fileID: 1202286401}
   - component: {fileID: 1202286400}
   - component: {fileID: 1202286399}
-  - component: {fileID: 1202286398}
   - component: {fileID: 1202286397}
   m_Layer: 0
   m_Name: Domino (100)
@@ -62638,20 +61263,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1202286398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1202286395}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1202286397}
 --- !u!65 &1202286399
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62795,7 +61406,7 @@ BoxCollider:
   m_GameObject: {fileID: 1252251196}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -62912,7 +61523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4cf9acac1c6c8d44dbf60266100862f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceAmount: 647
+  bounceAmount: 739
   a: {x: 0, y: 0, z: 0}
   b: {x: 0, y: 0, z: 0}
   c: {x: 0, y: 0, z: 0}
@@ -63104,7 +61715,6 @@ GameObject:
   - component: {fileID: 1267669520}
   - component: {fileID: 1267669519}
   - component: {fileID: 1267669518}
-  - component: {fileID: 1267669517}
   - component: {fileID: 1267669516}
   m_Layer: 0
   m_Name: Domino (30)
@@ -63144,20 +61754,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1267669517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267669514}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1267669516}
 --- !u!65 &1267669518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63233,7 +61829,6 @@ GameObject:
   - component: {fileID: 1273106006}
   - component: {fileID: 1273106005}
   - component: {fileID: 1273106004}
-  - component: {fileID: 1273106003}
   - component: {fileID: 1273106002}
   m_Layer: 0
   m_Name: Domino
@@ -63273,20 +61868,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1273106003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273106000}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1273106002}
 --- !u!65 &1273106004
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63362,7 +61943,6 @@ GameObject:
   - component: {fileID: 1277081467}
   - component: {fileID: 1277081466}
   - component: {fileID: 1277081465}
-  - component: {fileID: 1277081464}
   - component: {fileID: 1277081463}
   m_Layer: 0
   m_Name: Domino (91)
@@ -63402,20 +61982,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1277081464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277081461}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1277081463}
 --- !u!65 &1277081465
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63491,7 +62057,6 @@ GameObject:
   - component: {fileID: 1289064957}
   - component: {fileID: 1289064956}
   - component: {fileID: 1289064955}
-  - component: {fileID: 1289064954}
   - component: {fileID: 1289064953}
   m_Layer: 0
   m_Name: Domino (44)
@@ -63531,20 +62096,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1289064954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289064951}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1289064953}
 --- !u!65 &1289064955
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63717,7 +62268,6 @@ GameObject:
   - component: {fileID: 1296725576}
   - component: {fileID: 1296725575}
   - component: {fileID: 1296725574}
-  - component: {fileID: 1296725573}
   - component: {fileID: 1296725572}
   m_Layer: 0
   m_Name: Domino (114)
@@ -63757,20 +62307,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1296725573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1296725570}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1296725572}
 --- !u!65 &1296725574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63846,7 +62382,6 @@ GameObject:
   - component: {fileID: 1309513447}
   - component: {fileID: 1309513446}
   - component: {fileID: 1309513445}
-  - component: {fileID: 1309513444}
   - component: {fileID: 1309513443}
   m_Layer: 0
   m_Name: Domino (140)
@@ -63886,20 +62421,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1309513444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309513441}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -50
-  rb: {fileID: 1309513443}
 --- !u!65 &1309513445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69363,7 +67884,6 @@ GameObject:
   - component: {fileID: 1333304428}
   - component: {fileID: 1333304427}
   - component: {fileID: 1333304426}
-  - component: {fileID: 1333304425}
   - component: {fileID: 1333304424}
   m_Layer: 0
   m_Name: Domino (9)
@@ -69403,20 +67923,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1333304425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333304422}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1333304424}
 --- !u!65 &1333304426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69492,7 +67998,6 @@ GameObject:
   - component: {fileID: 1333743830}
   - component: {fileID: 1333743829}
   - component: {fileID: 1333743828}
-  - component: {fileID: 1333743827}
   - component: {fileID: 1333743826}
   m_Layer: 0
   m_Name: Domino (131)
@@ -69532,20 +68037,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1333743827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333743824}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1333743826}
 --- !u!65 &1333743828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69621,7 +68112,6 @@ GameObject:
   - component: {fileID: 1346044225}
   - component: {fileID: 1346044224}
   - component: {fileID: 1346044223}
-  - component: {fileID: 1346044222}
   - component: {fileID: 1346044221}
   m_Layer: 0
   m_Name: Domino (130)
@@ -69661,20 +68151,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1346044222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1346044219}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1346044221}
 --- !u!65 &1346044223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70152,7 +68628,6 @@ GameObject:
   - component: {fileID: 1375658600}
   - component: {fileID: 1375658599}
   - component: {fileID: 1375658598}
-  - component: {fileID: 1375658597}
   - component: {fileID: 1375658596}
   m_Layer: 0
   m_Name: Domino (119)
@@ -70192,20 +68667,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1375658597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375658594}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1375658596}
 --- !u!65 &1375658598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70299,7 +68760,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1379223893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f40fd6fbc505954bb1f8a09462c7bad, type: 3}
+  m_Script: {fileID: 11500000, guid: 814dd53422704454a95b624849e5f5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Sparks: {fileID: 1638694231}
@@ -70389,7 +68850,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379223893}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.0010182157, y: -0.0015431485, z: -0.0019932173, w: 0.99999636}
   m_LocalPosition: {x: -60.100006, y: 24.04, z: -71.85}
   m_LocalScale: {x: 0.63761, y: 0.63761, z: 0.63761}
   m_ConstrainProportionsScale: 0
@@ -70397,7 +68858,7 @@ Transform:
   - {fileID: 1638694231}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.116, y: -0.177, z: -0.229}
 --- !u!1 &1382341126
 GameObject:
   m_ObjectHideFlags: 0
@@ -70410,7 +68871,6 @@ GameObject:
   - component: {fileID: 1382341132}
   - component: {fileID: 1382341131}
   - component: {fileID: 1382341130}
-  - component: {fileID: 1382341129}
   - component: {fileID: 1382341128}
   m_Layer: 0
   m_Name: Domino (125)
@@ -70450,20 +68910,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1382341129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1382341126}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1382341128}
 --- !u!65 &1382341130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70539,7 +68985,6 @@ GameObject:
   - component: {fileID: 1388972310}
   - component: {fileID: 1388972309}
   - component: {fileID: 1388972308}
-  - component: {fileID: 1388972307}
   - component: {fileID: 1388972306}
   m_Layer: 0
   m_Name: Domino (115)
@@ -70579,20 +69024,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1388972307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1388972304}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1388972306}
 --- !u!65 &1388972308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70765,7 +69196,6 @@ GameObject:
   - component: {fileID: 1400695290}
   - component: {fileID: 1400695289}
   - component: {fileID: 1400695288}
-  - component: {fileID: 1400695287}
   - component: {fileID: 1400695286}
   m_Layer: 0
   m_Name: Domino (14)
@@ -70805,20 +69235,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1400695287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400695284}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1400695286}
 --- !u!65 &1400695288
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70894,7 +69310,6 @@ GameObject:
   - component: {fileID: 1404683390}
   - component: {fileID: 1404683389}
   - component: {fileID: 1404683388}
-  - component: {fileID: 1404683387}
   - component: {fileID: 1404683386}
   m_Layer: 0
   m_Name: Domino (58)
@@ -70934,20 +69349,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1404683387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1404683384}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1404683386}
 --- !u!65 &1404683388
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71010,103 +69411,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404683384}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1406764090
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1406764091}
-  - component: {fileID: 1406764094}
-  - component: {fileID: 1406764093}
-  - component: {fileID: 1406764092}
-  m_Layer: 0
-  m_Name: SlideWallL (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1406764091
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406764090}
-  m_LocalRotation: {x: 0.0028260052, y: 0.012813501, z: 0.3434221, w: 0.9390895}
-  m_LocalPosition: {x: -55.47, y: 1.22, z: -46.92}
-  m_LocalScale: {x: 1.0405585, y: 21.13, z: 10.164758}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1038714740}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -0.2, y: 1.49, z: 40.172}
---- !u!65 &1406764092
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406764090}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1406764093
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406764090}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 2824f396dd700f04ba272680a0840b36, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1406764094
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406764090}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1407633800
 GameObject:
@@ -76029,7 +74333,6 @@ GameObject:
   - component: {fileID: 1414509769}
   - component: {fileID: 1414509768}
   - component: {fileID: 1414509767}
-  - component: {fileID: 1414509766}
   - component: {fileID: 1414509765}
   m_Layer: 0
   m_Name: Domino (99)
@@ -76069,20 +74372,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1414509766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414509763}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1414509765}
 --- !u!65 &1414509767
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76287,7 +74576,6 @@ GameObject:
   - component: {fileID: 1443295798}
   - component: {fileID: 1443295797}
   - component: {fileID: 1443295796}
-  - component: {fileID: 1443295795}
   - component: {fileID: 1443295794}
   m_Layer: 0
   m_Name: Domino (142)
@@ -76327,20 +74615,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1443295795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443295792}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1443295794}
 --- !u!65 &1443295796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76416,7 +74690,6 @@ GameObject:
   - component: {fileID: 1451130134}
   - component: {fileID: 1451130133}
   - component: {fileID: 1451130132}
-  - component: {fileID: 1451130131}
   - component: {fileID: 1451130130}
   m_Layer: 0
   m_Name: Domino (96)
@@ -76456,20 +74729,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1451130131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451130128}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1451130130}
 --- !u!65 &1451130132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76545,7 +74804,6 @@ GameObject:
   - component: {fileID: 1453961764}
   - component: {fileID: 1453961763}
   - component: {fileID: 1453961762}
-  - component: {fileID: 1453961761}
   - component: {fileID: 1453961760}
   m_Layer: 0
   m_Name: Domino (124)
@@ -76585,20 +74843,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1453961761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453961758}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1453961760}
 --- !u!65 &1453961762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -76868,7 +75112,6 @@ GameObject:
   - component: {fileID: 1488949441}
   - component: {fileID: 1488949440}
   - component: {fileID: 1488949439}
-  - component: {fileID: 1488949438}
   - component: {fileID: 1488949437}
   m_Layer: 0
   m_Name: Domino (140)
@@ -76884,7 +75127,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488949435}
-  m_LocalRotation: {x: 0, y: 0, z: -0.18403716, w: 0.9829193}
+  m_LocalRotation: {x: -0, y: -0, z: -0.18403716, w: 0.9829193}
   m_LocalPosition: {x: 7.499992, y: 1.5499992, z: -3}
   m_LocalScale: {x: 0.1, y: 0.77, z: 0.5}
   m_ConstrainProportionsScale: 0
@@ -76908,20 +75151,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1488949438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488949435}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1488949437}
 --- !u!65 &1488949439
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77323,7 +75552,6 @@ GameObject:
   - component: {fileID: 1520570830}
   - component: {fileID: 1520570829}
   - component: {fileID: 1520570828}
-  - component: {fileID: 1520570827}
   - component: {fileID: 1520570826}
   m_Layer: 0
   m_Name: Domino (97)
@@ -77363,20 +75591,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1520570827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1520570824}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1520570826}
 --- !u!65 &1520570828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77743,7 +75957,6 @@ GameObject:
   - component: {fileID: 1549362050}
   - component: {fileID: 1549362049}
   - component: {fileID: 1549362048}
-  - component: {fileID: 1549362047}
   - component: {fileID: 1549362046}
   m_Layer: 0
   m_Name: Domino (113)
@@ -77783,20 +75996,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1549362047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549362044}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1549362046}
 --- !u!65 &1549362048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77872,7 +76071,6 @@ GameObject:
   - component: {fileID: 1549837742}
   - component: {fileID: 1549837741}
   - component: {fileID: 1549837740}
-  - component: {fileID: 1549837739}
   - component: {fileID: 1549837738}
   m_Layer: 0
   m_Name: Domino (15)
@@ -77912,20 +76110,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1549837739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549837736}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1549837738}
 --- !u!65 &1549837740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78486,7 +76670,6 @@ GameObject:
   - component: {fileID: 1590983993}
   - component: {fileID: 1590983992}
   - component: {fileID: 1590983991}
-  - component: {fileID: 1590983990}
   - component: {fileID: 1590983989}
   m_Layer: 0
   m_Name: Domino (129)
@@ -78526,20 +76709,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1590983990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1590983987}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1590983989}
 --- !u!65 &1590983991
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78615,7 +76784,6 @@ GameObject:
   - component: {fileID: 1602137058}
   - component: {fileID: 1602137057}
   - component: {fileID: 1602137056}
-  - component: {fileID: 1602137055}
   - component: {fileID: 1602137054}
   m_Layer: 0
   m_Name: Domino (135)
@@ -78655,20 +76823,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1602137055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1602137052}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1602137054}
 --- !u!65 &1602137056
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78861,7 +77015,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1038714740}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 3.569, y: 91.213, z: -0.095}
 --- !u!65 &1619906670
 BoxCollider:
@@ -84077,7 +82231,6 @@ GameObject:
   - component: {fileID: 1644389765}
   - component: {fileID: 1644389764}
   - component: {fileID: 1644389763}
-  - component: {fileID: 1644389762}
   - component: {fileID: 1644389761}
   m_Layer: 0
   m_Name: Domino (49)
@@ -84117,20 +82270,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1644389762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1644389759}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1644389761}
 --- !u!65 &1644389763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84206,7 +82345,6 @@ GameObject:
   - component: {fileID: 1650041161}
   - component: {fileID: 1650041160}
   - component: {fileID: 1650041159}
-  - component: {fileID: 1650041158}
   - component: {fileID: 1650041157}
   m_Layer: 0
   m_Name: Domino (74)
@@ -84246,20 +82384,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1650041158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1650041155}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1650041157}
 --- !u!65 &1650041159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84432,7 +82556,6 @@ GameObject:
   - component: {fileID: 1660093901}
   - component: {fileID: 1660093900}
   - component: {fileID: 1660093899}
-  - component: {fileID: 1660093898}
   - component: {fileID: 1660093897}
   m_Layer: 0
   m_Name: Domino (24)
@@ -84472,20 +82595,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1660093898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660093895}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1660093897}
 --- !u!65 &1660093899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84561,7 +82670,6 @@ GameObject:
   - component: {fileID: 1660126087}
   - component: {fileID: 1660126086}
   - component: {fileID: 1660126085}
-  - component: {fileID: 1660126084}
   - component: {fileID: 1660126083}
   m_Layer: 0
   m_Name: Domino (28)
@@ -84601,20 +82709,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1660126084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660126081}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1660126083}
 --- !u!65 &1660126085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89697,7 +87791,6 @@ GameObject:
   - component: {fileID: 1688723375}
   - component: {fileID: 1688723374}
   - component: {fileID: 1688723373}
-  - component: {fileID: 1688723372}
   - component: {fileID: 1688723371}
   m_Layer: 0
   m_Name: Domino (4)
@@ -89737,20 +87830,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1688723372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688723369}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1688723371}
 --- !u!65 &1688723373
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89923,7 +88002,6 @@ GameObject:
   - component: {fileID: 1702180847}
   - component: {fileID: 1702180846}
   - component: {fileID: 1702180845}
-  - component: {fileID: 1702180844}
   - component: {fileID: 1702180843}
   m_Layer: 0
   m_Name: Domino (132)
@@ -89963,20 +88041,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1702180844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702180841}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1702180843}
 --- !u!65 &1702180845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90052,7 +88116,6 @@ GameObject:
   - component: {fileID: 1725343319}
   - component: {fileID: 1725343318}
   - component: {fileID: 1725343317}
-  - component: {fileID: 1725343316}
   - component: {fileID: 1725343315}
   m_Layer: 0
   m_Name: Domino (120)
@@ -90092,20 +88155,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1725343316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1725343313}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1725343315}
 --- !u!65 &1725343317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90279,7 +88328,6 @@ GameObject:
   - component: {fileID: 1734005956}
   - component: {fileID: 1734005955}
   - component: {fileID: 1734005954}
-  - component: {fileID: 1734005953}
   - component: {fileID: 1734005952}
   m_Layer: 0
   m_Name: Domino (29)
@@ -90319,20 +88367,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1734005953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734005950}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1734005952}
 --- !u!65 &1734005954
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90505,7 +88539,6 @@ GameObject:
   - component: {fileID: 1737019714}
   - component: {fileID: 1737019713}
   - component: {fileID: 1737019712}
-  - component: {fileID: 1737019711}
   - component: {fileID: 1737019710}
   m_Layer: 0
   m_Name: Domino (93)
@@ -90545,20 +88578,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1737019711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1737019708}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1737019710}
 --- !u!65 &1737019712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90809,7 +88828,6 @@ GameObject:
   - component: {fileID: 1751524461}
   - component: {fileID: 1751524460}
   - component: {fileID: 1751524459}
-  - component: {fileID: 1751524458}
   - component: {fileID: 1751524457}
   m_Layer: 0
   m_Name: Domino (13)
@@ -90849,20 +88867,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1751524458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1751524455}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1751524457}
 --- !u!65 &1751524459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91490,7 +89494,6 @@ GameObject:
   - component: {fileID: 1796210750}
   - component: {fileID: 1796210749}
   - component: {fileID: 1796210748}
-  - component: {fileID: 1796210747}
   - component: {fileID: 1796210746}
   m_Layer: 0
   m_Name: Domino (73)
@@ -91530,20 +89533,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1796210747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796210744}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1796210746}
 --- !u!65 &1796210748
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97324,7 +95313,6 @@ GameObject:
   - component: {fileID: 1868824694}
   - component: {fileID: 1868824693}
   - component: {fileID: 1868824692}
-  - component: {fileID: 1868824691}
   - component: {fileID: 1868824690}
   m_Layer: 0
   m_Name: Domino (88)
@@ -97364,20 +95352,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1868824691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868824688}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1868824690}
 --- !u!65 &1868824692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97581,7 +95555,6 @@ GameObject:
   - component: {fileID: 1882796313}
   - component: {fileID: 1882796312}
   - component: {fileID: 1882796311}
-  - component: {fileID: 1882796310}
   - component: {fileID: 1882796309}
   m_Layer: 0
   m_Name: Domino (35)
@@ -97621,20 +95594,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1882796310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1882796307}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1882796309}
 --- !u!65 &1882796311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97710,7 +95669,6 @@ GameObject:
   - component: {fileID: 1887845222}
   - component: {fileID: 1887845221}
   - component: {fileID: 1887845220}
-  - component: {fileID: 1887845219}
   - component: {fileID: 1887845218}
   m_Layer: 0
   m_Name: Domino (104)
@@ -97750,20 +95708,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1887845219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887845216}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1887845218}
 --- !u!65 &1887845220
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -98033,7 +95977,6 @@ GameObject:
   - component: {fileID: 1919501841}
   - component: {fileID: 1919501840}
   - component: {fileID: 1919501839}
-  - component: {fileID: 1919501838}
   - component: {fileID: 1919501837}
   m_Layer: 0
   m_Name: Domino (43)
@@ -98073,20 +96016,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1919501838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1919501835}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1919501837}
 --- !u!65 &1919501839
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103262,7 +101191,6 @@ GameObject:
   - component: {fileID: 1946228742}
   - component: {fileID: 1946228741}
   - component: {fileID: 1946228740}
-  - component: {fileID: 1946228739}
   - component: {fileID: 1946228738}
   m_Layer: 0
   m_Name: Domino (116)
@@ -103302,20 +101230,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1946228739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1946228736}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1946228738}
 --- !u!65 &1946228740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103488,7 +101402,6 @@ GameObject:
   - component: {fileID: 1953620315}
   - component: {fileID: 1953620314}
   - component: {fileID: 1953620313}
-  - component: {fileID: 1953620312}
   - component: {fileID: 1953620311}
   m_Layer: 0
   m_Name: Domino (64)
@@ -103528,20 +101441,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1953620312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1953620309}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1953620311}
 --- !u!65 &1953620313
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103617,7 +101516,6 @@ GameObject:
   - component: {fileID: 1953812175}
   - component: {fileID: 1953812174}
   - component: {fileID: 1953812173}
-  - component: {fileID: 1953812172}
   - component: {fileID: 1953812171}
   m_Layer: 0
   m_Name: Domino (98)
@@ -103657,20 +101555,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1953812172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1953812169}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1953812171}
 --- !u!65 &1953812173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103746,7 +101630,6 @@ GameObject:
   - component: {fileID: 1968522397}
   - component: {fileID: 1968522396}
   - component: {fileID: 1968522395}
-  - component: {fileID: 1968522394}
   - component: {fileID: 1968522393}
   m_Layer: 0
   m_Name: Domino (62)
@@ -103786,20 +101669,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1968522394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968522391}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1968522393}
 --- !u!65 &1968522395
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103972,7 +101841,6 @@ GameObject:
   - component: {fileID: 1978453459}
   - component: {fileID: 1978453458}
   - component: {fileID: 1978453457}
-  - component: {fileID: 1978453456}
   - component: {fileID: 1978453455}
   m_Layer: 0
   m_Name: Domino (16)
@@ -104012,20 +101880,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1978453456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1978453453}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1978453455}
 --- !u!65 &1978453457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104145,14 +101999,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981705823}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071067, y: 0.00048825535, z: 0.00048825511, w: 0.7071067}
   m_LocalPosition: {x: 0.12546842, y: 0.2352544, z: 0.04}
   m_LocalScale: {x: 0.376186, y: 0.37618637, z: 0.37618637}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 647005934}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0.079}
 --- !u!199 &1981705825
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -108945,7 +106799,6 @@ GameObject:
   - component: {fileID: 1985454495}
   - component: {fileID: 1985454494}
   - component: {fileID: 1985454493}
-  - component: {fileID: 1985454492}
   - component: {fileID: 1985454491}
   m_Layer: 0
   m_Name: Domino (67)
@@ -108985,20 +106838,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1985454492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1985454489}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 1985454491}
 --- !u!65 &1985454493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -114256,7 +112095,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021902501}
   m_LocalRotation: {x: -0.0014872551, y: 0.013036891, z: 0.019923586, w: 0.99971545}
-  m_LocalPosition: {x: -55.8, y: -2.6, z: -54.19}
+  m_LocalPosition: {x: -55.78, y: -3.1, z: -54.19}
   m_LocalScale: {x: 0.16072635, y: 8.384684, z: 10.164758}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -114436,7 +112275,6 @@ GameObject:
   - component: {fileID: 2033540010}
   - component: {fileID: 2033540009}
   - component: {fileID: 2033540008}
-  - component: {fileID: 2033540007}
   - component: {fileID: 2033540006}
   m_Layer: 0
   m_Name: Domino (139)
@@ -114468,28 +112306,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033540004}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 1.99
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2033540007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033540004}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2033540006}
 --- !u!65 &2033540008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -114565,7 +112389,6 @@ GameObject:
   - component: {fileID: 2038367339}
   - component: {fileID: 2038367338}
   - component: {fileID: 2038367337}
-  - component: {fileID: 2038367336}
   - component: {fileID: 2038367335}
   m_Layer: 0
   m_Name: Domino (23)
@@ -114605,20 +112428,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2038367336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038367333}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2038367335}
 --- !u!65 &2038367337
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -114712,7 +112521,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2043307203}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f40fd6fbc505954bb1f8a09462c7bad, type: 3}
+  m_Script: {fileID: 11500000, guid: 814dd53422704454a95b624849e5f5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Sparks: {fileID: 806099528}
@@ -114802,7 +112611,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2043307203}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.00022396768, y: -0.00033943242, z: -0.00043843006, w: 0.9999998}
   m_LocalPosition: {x: -64.94001, y: 24.04, z: -71.85}
   m_LocalScale: {x: 0.63761, y: 0.63761, z: 0.63761}
   m_ConstrainProportionsScale: 0
@@ -114810,7 +112619,7 @@ Transform:
   - {fileID: 806099528}
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.026, y: -0.039, z: -0.05}
 --- !u!1 &2055893975
 GameObject:
   m_ObjectHideFlags: 0
@@ -114968,7 +112777,6 @@ GameObject:
   - component: {fileID: 2059561854}
   - component: {fileID: 2059561853}
   - component: {fileID: 2059561852}
-  - component: {fileID: 2059561851}
   - component: {fileID: 2059561850}
   m_Layer: 0
   m_Name: Domino (39)
@@ -115008,20 +112816,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2059561851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2059561848}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2059561850}
 --- !u!65 &2059561852
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115133,7 +112927,6 @@ GameObject:
   - component: {fileID: 2071404041}
   - component: {fileID: 2071404040}
   - component: {fileID: 2071404039}
-  - component: {fileID: 2071404038}
   - component: {fileID: 2071404037}
   m_Layer: 0
   m_Name: Domino (12)
@@ -115173,20 +112966,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2071404038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2071404035}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2071404037}
 --- !u!65 &2071404039
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115262,7 +113041,6 @@ GameObject:
   - component: {fileID: 2074751231}
   - component: {fileID: 2074751230}
   - component: {fileID: 2074751229}
-  - component: {fileID: 2074751228}
   - component: {fileID: 2074751227}
   m_Layer: 0
   m_Name: Domino (82)
@@ -115302,20 +113080,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2074751228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2074751225}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2074751227}
 --- !u!65 &2074751229
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115488,7 +113252,6 @@ GameObject:
   - component: {fileID: 2081186407}
   - component: {fileID: 2081186406}
   - component: {fileID: 2081186405}
-  - component: {fileID: 2081186404}
   - component: {fileID: 2081186403}
   m_Layer: 0
   m_Name: Domino (118)
@@ -115528,20 +113291,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2081186404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081186401}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2081186403}
 --- !u!65 &2081186405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115635,7 +113384,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2083721689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f40fd6fbc505954bb1f8a09462c7bad, type: 3}
+  m_Script: {fileID: 11500000, guid: 814dd53422704454a95b624849e5f5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Sparks: {fileID: 649979460}
@@ -115959,7 +113708,6 @@ GameObject:
   - component: {fileID: 2093493056}
   - component: {fileID: 2093493055}
   - component: {fileID: 2093493054}
-  - component: {fileID: 2093493053}
   - component: {fileID: 2093493052}
   m_Layer: 0
   m_Name: Domino (87)
@@ -115999,20 +113747,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2093493053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2093493050}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2093493052}
 --- !u!65 &2093493054
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116185,7 +113919,6 @@ GameObject:
   - component: {fileID: 2104804009}
   - component: {fileID: 2104804008}
   - component: {fileID: 2104804007}
-  - component: {fileID: 2104804006}
   - component: {fileID: 2104804005}
   m_Layer: 0
   m_Name: Domino (121)
@@ -116225,20 +113958,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2104804006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2104804003}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2104804005}
 --- !u!65 &2104804007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116314,7 +114033,6 @@ GameObject:
   - component: {fileID: 2106159576}
   - component: {fileID: 2106159575}
   - component: {fileID: 2106159574}
-  - component: {fileID: 2106159573}
   - component: {fileID: 2106159572}
   m_Layer: 0
   m_Name: Domino (63)
@@ -116354,20 +114072,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2106159573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2106159570}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2106159572}
 --- !u!65 &2106159574
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116613,7 +114317,6 @@ GameObject:
   - component: {fileID: 2134782646}
   - component: {fileID: 2134782645}
   - component: {fileID: 2134782644}
-  - component: {fileID: 2134782643}
   - component: {fileID: 2134782642}
   m_Layer: 0
   m_Name: Domino (95)
@@ -116653,20 +114356,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2134782643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134782640}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2134782642}
 --- !u!65 &2134782644
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116742,7 +114431,6 @@ GameObject:
   - component: {fileID: 2135582337}
   - component: {fileID: 2135582336}
   - component: {fileID: 2135582335}
-  - component: {fileID: 2135582334}
   - component: {fileID: 2135582333}
   m_Layer: 0
   m_Name: Domino (33)
@@ -116782,20 +114470,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2135582334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2135582331}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2135582333}
 --- !u!65 &2135582335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116871,7 +114545,6 @@ GameObject:
   - component: {fileID: 2140069868}
   - component: {fileID: 2140069867}
   - component: {fileID: 2140069866}
-  - component: {fileID: 2140069865}
   - component: {fileID: 2140069864}
   m_Layer: 0
   m_Name: Domino (70)
@@ -116911,20 +114584,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2140069865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2140069862}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7525c63a9ae857c4894d508ac956c81b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  torqueStrength: -25
-  rb: {fileID: 2140069864}
 --- !u!65 &2140069866
 BoxCollider:
   m_ObjectHideFlags: 0
