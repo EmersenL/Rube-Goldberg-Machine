@@ -30,7 +30,7 @@ A physics based chain reaction created to perform a simple task. The task is pla
 
 
 #### Resources
-[Some resources used: trampoline bounce ](https://www.youtube.com/watch?v=iSQ4Ha2y4oI)
+[Trampoline Bounce](https://www.youtube.com/watch?v=iSQ4Ha2y4oI)
 
 #### Assets
 [Fantasy Skybox](https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353)
