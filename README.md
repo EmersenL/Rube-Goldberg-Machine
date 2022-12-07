@@ -32,6 +32,8 @@ A physics based chain reaction created to perform a simple task. The task is pla
 #### Resources
 [Trampoline Bounce](https://www.youtube.com/watch?v=iSQ4Ha2y4oI)
 
+[Player Input](https://www.youtube.com/watch?v=f473C43s8nE)
+
 #### Assets
 [Fantasy Skybox](https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353)
 
