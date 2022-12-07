@@ -43,4 +43,6 @@ A physics based chain reaction created to perform a simple task. The task is pla
 
 [Plank Textures](https://assetstore.unity.com/packages/2d/textures-materials/wood/plank-textures-pbr-72318)
 
+[Wooden Textures](https://assetstore.unity.com/packages/2d/textures-materials/wood/hand-painted-seamless-wood-texture-vol-6-162145)
+
 [Effects and Particles](https://assetstore.unity.com/packages/vfx/particles/effect-textures-and-prefabs-109031)
